@@ -18,6 +18,23 @@
 # Added 60FPS lock for Thirteen AG FHD patch
 1. Download and extract into C:\Program Files (x86)\Steam\steamapps\common\Max Payne 2 The Fall Of Max Payne
 2. Enjoy!
+
+
+# Max Payne 2 Linux Fix with 60 FPS lock
+1. Install Mangohud for yout distro
+
+2. Download Max Payne 2 Fix Linux from here or Thriteen AG's official repository,extract to game folder.
+
+https://thirteenag.github.io/wfp#mp2
+
+4. Go to Steam>Max Payne 2:The Fall Of Max Payne>Compatibility>General>Launch Options
+
+5. WINEDLLOVERRIDES="d3d8=n,b" MANGOHUD_CONFIG="fps_limit=60,no_display" mangohud %command%
+
+6. Enjoy the game
+
+7. At the time of testing Steam Proton version was 9.0-1
+
 # Enjoy!
 # Credit goes to Thirteen AG for wrapper and .ini FPS limiter creation visit him for more goodies:https://thirteenag.github.io/wfp
-# Credit for compilation and testing on latest Windows 10 builds goes to silentgameplayzz
+# Credit for compilation and testing on latest Windows 10 builds goes to silentgameplays
